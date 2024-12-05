@@ -38,17 +38,23 @@ int main() {
     sc.putSphere(26, 20, 15, 1);  // Bola2 de Natal na primeira camada
     sc.putSphere(18, 25, 18, 1);  // Bola na segunda camada
     sc.putSphere(23, 19, 23, 1);  // Bola2 na segunda camada
+    sc.putSphere(29, 29, 6, 1);  // Bola
+    sc.putSphere(18, 28, 7, 1);  // Bola
 
 
     sc.setColor(0.0f, 0.0f, 1.0f, 1.0f);  // Cor azul para a estrela
     sc.putSphere(24, 18, 18, 1);  // Bola2 na segunda camada
+    sc.putSphere(28, 21, 8, 1);  // Bola
+    sc.putSphere(20, 27, 11, 1);  // Bola
 
     // Adicionar algumas bolinhas de Natal (esferas vermelhas)
     sc.setColor(1.0f, 0.0f, 0.0f, 1.0f);  // Cor vermelha para as bolinhas
     sc.putSphere(22, 26, 15, 1);  // Bola de Natal na primeira camada
-
     sc.putSphere(24, 24, 20, 1);  // Bola na terceira camada
     sc.putSphere(17, 17, 23, 1);  // Bola na quarta camada
+    sc.putSphere(28, 17, 10, 1);  // Bola
+    sc.putSphere(27, 27, 12, 1);  // Bola
+
 
     sc.setColor(0.3f, 0.0f, 0.7f, 1.0f);  // Cor para bola presente
     sc.putSphere(29, 18, 2, 2);  // Bola presente chão
