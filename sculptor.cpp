@@ -1,8 +1,4 @@
 #include "sculptor.h"
-#include <QFile>
-#include <QTextStream>
-#include <QDebug>
-#include <QVector3D>
 #include <iostream>
 #include <fstream>
 

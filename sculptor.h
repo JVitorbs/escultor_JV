@@ -18,9 +18,6 @@ private:
     float r, g, b, a;  // Cor e transparência atuais a serem aplicadas aos voxels
 
 public:
-    // Declaração de uma função que escreve a representação 3D dos voxels em um arquivo no formato OFF.
-    void writeOFF(const char* filename);
-
     // Construtor da classe Sculptor que inicializa a matriz de voxels com as dimensões fornecidas.
     Sculptor(int _nx, int _ny, int _nz);
 
@@ -56,7 +53,7 @@ public:
 
     // Função que exporta a representação 3D dos voxels para um arquivo no formato OFF.
     // O formato OFF é usado para descrever objetos 3D em termos de vértices e faces.
-    void writeOFF(const QString& filename);
+    void writeOFF(const char* filename);
 };
 
 #endif // SCULPTOR_H

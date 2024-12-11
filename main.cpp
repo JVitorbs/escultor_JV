@@ -1,5 +1,7 @@
 #include "sculptor.h"
 
+// Alunos: João Vitor Batista Silva & Luciano de Medeiros Filho
+
 int main() {
     // Inicializa o Sculptor com uma área maior para mais detalhes
     Sculptor sc(80, 80, 40);
@@ -98,7 +100,7 @@ int main() {
     sc.putVoxel(3, 37, 2);
 
     // Exportar o modelo para um arquivo OFF
-    sc.writeOFF("arvore_natal_fina_cor.off");
+    sc.writeOFF("arvore_natal_Joao_Luciano.off");
 
     return 0;
 }
